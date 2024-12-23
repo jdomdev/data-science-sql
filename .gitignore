@@ -1,0 +1,57 @@
+# Ignorar checkpoints de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Ignorar entornos virtuales creados por Anaconda o Python
+env/
+.venv/
+*.conda
+*.env
+*.venv
+*.virtualenv
+
+# Ignorar configuraciones específicas de Jupyter Notebook
+*.nbconvert/
+*.nbconvert.log
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignorar archivos de configuración del editor
+.idea/
+.vscode/
+*.iml
+
+# Ignorar datos sensibles o temporales
+*.csv
+*.xlsx
+*.json
+datasets/*_tmp.*
+
+# Ignorar logs y otros archivos generados
+*.log
+logs/
+*.out
+*.err
+
+# Ignorar archivos compilados de Python
+*.pyc
+__pycache__/
+
+# Archivos SQL temporales o de respaldo
+*.sql-journal
+*.sql.bak
+
+# Ignorar archivos relacionados con bibliotecas específicas
+*.db
+*.sqlite3
+
+# Ignorar configuraciones específicas del entorno de desarrollo
+*.env
+.env.local
+.env.*.local
+
